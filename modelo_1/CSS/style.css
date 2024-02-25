@@ -1922,7 +1922,7 @@ section.galeria {
 
 }
 
-@media (max-width: 125px) {
+@media (max-width: 880px) {
 
 
     .hg-100 {
@@ -2028,7 +2028,7 @@ section.galeria {
 
     .intro {
         background-position: var(--portada-pos-small);
-        background-image: url("../img/portadamobil.jpg"), url("../img/portada.jpg");
+        background-image: url(../Image/WhatsApp\ Image\ 2024-02-11\ at\ 19.26.52.jpeg);
     }
 
     .intro-circulo {
