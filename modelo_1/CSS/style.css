@@ -1,4 +1,3 @@
-/* Modal bienvenida */
 .modal-bienvenida {
     width: 100%;
     height: 100%;
@@ -365,23 +364,7 @@ h3,
     display: inline-block; /* Asegura que ocupa solo el ancho necesario */
 }
 
-.btnGrl:after {
-    background-color: var(--color-bg-btn);
-    border-radius: 65px;
-    transition: all 0.3s;
-    z-index: -1;
-    display: block;
-    content: '';
-    position: absolute;
-    width: 200%;
-    height: 250%;
-    top: 0;
-    left: 0;
-}
-
-.btnGrl:hover:after {
-    box-shadow: 0 6px 30px 10px var(--color-bg-btn-hover);
-}
+/* Modal bienvenida */
 
 /*Sections grl*/
 
