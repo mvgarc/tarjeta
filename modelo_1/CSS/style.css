@@ -1032,7 +1032,7 @@ footer a {
 .propuesta-text:before {
     content: "";
     left: 20px;
-    top: 40px;
+    top: 10px;
     background-image: url("https://miboda.love/endPoint/generador/img/comillas.svg");
     position: absolute;
     width: 72px;
