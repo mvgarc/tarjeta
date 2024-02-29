@@ -353,7 +353,7 @@ h3,
 
 .btnGrl {
     background: var(--color-bg-btn);
-    transition: all 0.3s;
+    color: #fff;
     position: relative;
     padding: 20px 40px; /* Ajusta el padding para hacer el botón más grande */
     border-radius: 30px;
