@@ -1019,6 +1019,46 @@ footer a {
     padding-bottom: 160px;
 }
 
+.propuesta-text {
+    position: relative;
+    left: 10%;
+    padding: 80px 20px 90px 20px;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    color: var(--propuesta-color);
+}
+
+.propuesta-text:before {
+    content: "";
+    left: 20px;
+    top: 40px;
+    background-image: url("https://miboda.love/endPoint/generador/img/comillas.svg");
+    position: absolute;
+    width: 72px;
+    height: 70px;
+    opacity: .4;
+    background-size: cover;
+}
+
+.propuesta-text h3 {
+    font-size: 46px;
+    font-family: var(--propuesta-fuente);
+}
+
+.propuesta-text p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.propuesta-text h2 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+    font-family: var(--fuente-textos);
+}
+
 .propuestaText {
     margin: 10px 0; /* Ajusta el margen superior e inferior */
     padding: 20px;
