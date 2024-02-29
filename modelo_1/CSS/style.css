@@ -1019,50 +1019,13 @@ footer a {
     padding-bottom: 160px;
 }
 
-.propuesta-text {
-    margin: 30px 0 20px 0; /* Ajusta los márgenes en lugar de position y left */
-    padding: 20px;
-    width: 80%;
-    text-align: center;
-    color: var(--propuesta-color);
-}
-
-.propuesta-text:before {
-    content: "";
-    left: 20px;
-    top: 10px;
-    background-image: url("https://miboda.love/endPoint/generador/img/comillas.svg");
-    position: absolute;
-    width: 72px;
-    height: 70px;
-    opacity: .4;
-    background-size: cover;
-}
-
-.propuesta-text h3 {
-    font-size: 46px;
-    font-family: var(--propuesta-fuente);
-}
-
-.propuesta-text p {
-    font-size: 18px;
-    line-height: 28px;
-    margin-top: 20px;
-}
-
-.propuesta-text h2 {
-    font-size: 18px;
-    line-height: 28px;
-    margin-top: 20px;
-    font-family: var(--fuente-textos);
-}
-
 .propuestaText {
-    margin: 30px 0 20px 0; /* Ajusta los márgenes en lugar de position y left */
+    margin: 10px 0; /* Ajusta el margen superior e inferior */
     padding: 20px;
     width: 80%;
     text-align: center;
     color: var(--propuesta-color);
+    margin: auto; /* Centra verticalmente */
 }
 
 .propuestaText:before {
@@ -1079,6 +1042,7 @@ footer a {
 .propuestaText h5 {
     font-size: 70px;
     font-family: var(--propuesta-fuente);
+    margin-bottom: 10px; /* Márgenes inferiores pequeños */
 }
 
 .propuestaText h3 {
