@@ -1058,11 +1058,9 @@ footer a {
 }
 
 .propuestaText {
-    position: relative;
-    left: 10%;
-    padding: 30px 20px 20px 20px;
+    margin: 30px 0 20px 0; /* Ajusta los márgenes en lugar de position y left */
+    padding: 20px;
     width: 80%;
-    position: relative;
     text-align: center;
     color: var(--propuesta-color);
 }
